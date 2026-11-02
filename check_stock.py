@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-"""
-iPhone Duo (Night Sky, 256GB + 512GB) pickup tracker for Apple Stores near a ZIP.
-
-- Checks Apple's pickup availability for each nearby store.
-- Sends a phone alert (via ntfy.sh) when a store goes from unavailable -> available.
-- Keeps a tracker: tracker.csv (current status) and history.csv (every change).
-- Fails loudly: if Apple's response changes, you get ONE "tracker broken" alert.
-
-Uses only the Python standard library.
-"""
+"""iPhone Duo (Night Sky, 256GB + 512GB) pickup tracker for Apple Stores near a ZIP."""
 import csv
 import json
 import os
@@ -21,7 +12,6 @@ ZIP = os.environ.get("TRACK_ZIP", "92127")
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")
 MAX_STORES = int(os.environ.get("MAX_STORES", "10"))
 
-# Part numbers for the unlocked Night Sky models (from Apple's buy pages)
 PARTS = {
     "MK1F4LL/A": "iPhone Duo Night Sky 256GB",
     "MK1H4LL/A": "iPhone Duo Night Sky 512GB",
@@ -38,10 +28,10 @@ def now():
 
 
 def fetch():
-    params = [("pl", "true"), ("mts.0", "regular"), ("location", ZIP)]
+    params = [("pl", "true"), ("location", ZIP)]
     for i, part in enumerate(PARTS):
         params.append((f"parts.{i}", part))
-    url = "https://www.apple.com/shop/fulfillment-messages?" + urllib.parse.urlencode(params)
+    url = "https://www.apple.com/shop/retail/pickup-message?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(
         url,
         headers={
@@ -56,8 +46,9 @@ def fetch():
 
 def parse(data):
     try:
-        stores = data["body"]["content"]["pickupMessage"]["stores"]
-    except (KeyError, TypeError):
+        body = data["body"]
+        stores = body.get("stores") or body["content"]["pickupMessage"]["stores"]
+    except (KeyError, TypeError, AttributeError):
         raise ValueError("Unexpected response shape - Apple may have changed or blocked the endpoint")
     if not stores:
         raise ValueError(f"No stores returned for ZIP {ZIP}")
@@ -130,7 +121,7 @@ def main():
 
     try:
         current = parse(fetch())
-    except Exception as e:  # fail loudly, but only alert once per outage
+    except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
         if not state.get("broken"):
             try:
@@ -145,7 +136,7 @@ def main():
     history_rows = []
 
     for key, v in current.items():
-        was = prev.get(key, {}).get("available")  # None the first time we see it
+        was = prev.get(key, {}).get("available")
         if v["available"] != was:
             v["since"] = now()
             history_rows.append([v["since"], v["store"], v["item"], "AVAILABLE" if v["available"] else "Unavailable"])
