@@ -1,0 +1,145 @@
+{
+  "broken": false,
+  "stores": {
+    "Carlsbad|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Carlsbad"
+    },
+    "Carlsbad|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Carlsbad"
+    },
+    "El Paseo Village|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "El Paseo Village"
+    },
+    "El Paseo Village|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "El Paseo Village"
+    },
+    "Fashion Island|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Fashion Island"
+    },
+    "Fashion Island|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Fashion Island"
+    },
+    "Fashion Valley|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Fashion Valley"
+    },
+    "Fashion Valley|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Fashion Valley"
+    },
+    "Irvine Spectrum Center|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Irvine Spectrum Center"
+    },
+    "Irvine Spectrum Center|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Irvine Spectrum Center"
+    },
+    "Mission Viejo|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Mission Viejo"
+    },
+    "Mission Viejo|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Mission Viejo"
+    },
+    "Otay Ranch|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Otay Ranch"
+    },
+    "Otay Ranch|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Otay Ranch"
+    },
+    "Promenade Temecula|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Promenade Temecula"
+    },
+    "Promenade Temecula|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "Promenade Temecula"
+    },
+    "South Coast Plaza|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "South Coast Plaza"
+    },
+    "South Coast Plaza|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "South Coast Plaza"
+    },
+    "UTC|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "UTC"
+    },
+    "UTC|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-02 22:52 UTC",
+      "store": "UTC"
+    }
+  }
+}
