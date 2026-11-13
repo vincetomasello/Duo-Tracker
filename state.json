@@ -114,10 +114,10 @@
       "store": "Promenade Temecula"
     },
     "South Coast Plaza|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Today",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-13 17:56 UTC",
+      "since": "2026-11-13 23:26 UTC",
       "store": "South Coast Plaza"
     },
     "South Coast Plaza|MK1H4LL/A": {
