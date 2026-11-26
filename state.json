@@ -1,20 +1,6 @@
 {
   "broken": false,
   "stores": {
-    "Brea Mall|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Today",
-      "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-25 20:07 UTC",
-      "store": "Brea Mall"
-    },
-    "Brea Mall|MK1H4LL/A": {
-      "available": false,
-      "detail": "Currently unavailable",
-      "item": "iPhone Duo Night Sky 512GB",
-      "since": "2026-11-25 20:07 UTC",
-      "store": "Brea Mall"
-    },
     "Carlsbad|MK1F4LL/A": {
       "available": false,
       "detail": "Currently unavailable",
@@ -29,9 +15,23 @@
       "since": "2026-11-02 22:52 UTC",
       "store": "Carlsbad"
     },
+    "El Paseo Village|MK1F4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-26 02:50 UTC",
+      "store": "El Paseo Village"
+    },
+    "El Paseo Village|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-26 02:50 UTC",
+      "store": "El Paseo Village"
+    },
     "Fashion Island|MK1F4LL/A": {
       "available": true,
-      "detail": "Available Today",
+      "detail": "Available Fri Nov 27",
       "item": "iPhone Duo Night Sky 256GB",
       "since": "2026-11-25 20:07 UTC",
       "store": "Fashion Island"
@@ -44,10 +44,10 @@
       "store": "Fashion Island"
     },
     "Fashion Valley|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Today",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-25 20:07 UTC",
+      "since": "2026-11-26 02:50 UTC",
       "store": "Fashion Valley"
     },
     "Fashion Valley|MK1H4LL/A": {
@@ -56,6 +56,20 @@
       "item": "iPhone Duo Night Sky 512GB",
       "since": "2026-11-02 22:52 UTC",
       "store": "Fashion Valley"
+    },
+    "Irvine Spectrum Center|MK1F4LL/A": {
+      "available": true,
+      "detail": "Available Fri Nov 27",
+      "item": "iPhone Duo Night Sky 256GB",
+      "since": "2026-11-26 02:50 UTC",
+      "store": "Irvine Spectrum Center"
+    },
+    "Irvine Spectrum Center|MK1H4LL/A": {
+      "available": false,
+      "detail": "Currently unavailable",
+      "item": "iPhone Duo Night Sky 512GB",
+      "since": "2026-11-26 02:50 UTC",
+      "store": "Irvine Spectrum Center"
     },
     "Mission Viejo|MK1F4LL/A": {
       "available": false,
@@ -72,10 +86,10 @@
       "store": "Mission Viejo"
     },
     "Otay Ranch|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Today",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-25 20:07 UTC",
+      "since": "2026-11-26 02:50 UTC",
       "store": "Otay Ranch"
     },
     "Otay Ranch|MK1H4LL/A": {
@@ -87,7 +101,7 @@
     },
     "Promenade Temecula|MK1F4LL/A": {
       "available": true,
-      "detail": "Available Today",
+      "detail": "Available Fri Nov 27",
       "item": "iPhone Duo Night Sky 256GB",
       "since": "2026-11-25 20:07 UTC",
       "store": "Promenade Temecula"
@@ -101,7 +115,7 @@
     },
     "South Coast Plaza|MK1F4LL/A": {
       "available": true,
-      "detail": "Available Today",
+      "detail": "Available Fri Nov 27",
       "item": "iPhone Duo Night Sky 256GB",
       "since": "2026-11-25 20:07 UTC",
       "store": "South Coast Plaza"
@@ -126,20 +140,6 @@
       "item": "iPhone Duo Night Sky 512GB",
       "since": "2026-11-02 22:52 UTC",
       "store": "UTC"
-    },
-    "Victoria Gardens|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Today",
-      "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-25 20:07 UTC",
-      "store": "Victoria Gardens"
-    },
-    "Victoria Gardens|MK1H4LL/A": {
-      "available": false,
-      "detail": "Currently unavailable",
-      "item": "iPhone Duo Night Sky 512GB",
-      "since": "2026-11-25 20:07 UTC",
-      "store": "Victoria Gardens"
     }
   }
 }
