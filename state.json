@@ -30,10 +30,10 @@
       "store": "El Paseo Village"
     },
     "Fashion Island|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Fri Nov 27",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-25 20:07 UTC",
+      "since": "2026-11-26 11:39 UTC",
       "store": "Fashion Island"
     },
     "Fashion Island|MK1H4LL/A": {
@@ -58,10 +58,10 @@
       "store": "Fashion Valley"
     },
     "Irvine Spectrum Center|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Fri Nov 27",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-26 02:50 UTC",
+      "since": "2026-11-26 11:39 UTC",
       "store": "Irvine Spectrum Center"
     },
     "Irvine Spectrum Center|MK1H4LL/A": {
@@ -100,10 +100,10 @@
       "store": "Otay Ranch"
     },
     "Promenade Temecula|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Fri Nov 27",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-25 20:07 UTC",
+      "since": "2026-11-26 11:39 UTC",
       "store": "Promenade Temecula"
     },
     "Promenade Temecula|MK1H4LL/A": {
@@ -114,10 +114,10 @@
       "store": "Promenade Temecula"
     },
     "South Coast Plaza|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Fri Nov 27",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-25 20:07 UTC",
+      "since": "2026-11-26 11:39 UTC",
       "store": "South Coast Plaza"
     },
     "South Coast Plaza|MK1H4LL/A": {
