@@ -58,10 +58,10 @@
       "store": "Fashion Valley"
     },
     "Irvine Spectrum Center|MK1F4LL/A": {
-      "available": true,
-      "detail": "Available Today",
+      "available": false,
+      "detail": "Currently unavailable",
       "item": "iPhone Duo Night Sky 256GB",
-      "since": "2026-11-27 21:40 UTC",
+      "since": "2026-11-28 03:33 UTC",
       "store": "Irvine Spectrum Center"
     },
     "Irvine Spectrum Center|MK1H4LL/A": {
